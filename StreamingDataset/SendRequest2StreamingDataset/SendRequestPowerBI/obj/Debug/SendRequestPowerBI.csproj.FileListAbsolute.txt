@@ -1,0 +1,11 @@
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\bin\Debug\SendRequestPowerBI.exe.config
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\bin\Debug\SendRequestPowerBI.exe
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\bin\Debug\SendRequestPowerBI.pdb
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\obj\Debug\SendRequestPowerBI.csprojResolveAssemblyReference.cache
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\obj\Debug\SendRequestPowerBI.exe
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\obj\Debug\SendRequestPowerBI.pdb
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lado\Documents\Visual Studio 2015\SendRequestPowerBI\SendRequestPowerBI\bin\Debug\Newtonsoft.Json.xml
+d:\GitHub\PowerBI\StreamingDataset\SendRequest\SendRequestPowerBI\bin\Debug\SendRequestPowerBI.exe.config
+d:\GitHub\PowerBI\StreamingDataset\SendRequest\SendRequestPowerBI\obj\Debug\SendRequestPowerBI.exe
+d:\GitHub\PowerBI\StreamingDataset\SendRequest\SendRequestPowerBI\obj\Debug\SendRequestPowerBI.pdb
