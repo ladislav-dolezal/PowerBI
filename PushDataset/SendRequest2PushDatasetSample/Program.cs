@@ -14,7 +14,6 @@ using PowerBIExtensionMethods;
 
 namespace PBIGettingStarted
 {
-
 	public class AccessToken
 	{
 		public string token_type;
@@ -73,10 +72,7 @@ namespace PBIGettingStarted
 			Console.WriteLine("Press Enter key to create a Dataset in Power BI:");
 			Console.ReadLine();
 
-
-
 			CreateDataset();
-
 
 			//Get a dataset id from a Dataset name. The dataset id is used for UpdateTableSchema, AddRows, and DeleteRows
 			string datasetId = GetDatasets().value.GetDataset(datasetName).Id;
@@ -278,20 +274,20 @@ namespace PBIGettingStarted
 					destination += 5;
 					Random r = new Random();
 					value = r.Next(-2, 3);
-					System.Threading.Thread.Sleep(100);
+					System.Threading.Thread.Sleep(200);
 					messages.Add(
 							new Message() { Hour = string.Format("{0}:00", ("0" + i.ToString()).Substring(("0" + i.ToString()).Length - 2, 2)), Value = value, Destination = 0 }
 						);
-
 				}
+
 				//POST request using the json from a list of Product
 				//NOTE: Posting rows to a model that is not created through the Power BI API is not currently supported. 
 				//      Please create a dataset by posting it through the API following the instructions on http://dev.powerbi.com.
-				Console.WriteLine(PostRequest(request, messages.ToJson(JavaScriptConverter<Message>.GetSerializer())));
+				PostRequest(request, messages.ToJson(JavaScriptConverter<Message>.GetSerializer()));
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine(ex.Message);
+				Console.WriteLine(string.Format("{0} : {1}", System.DateTime.Now.ToString(), ex.Message));
 				token = String.Empty;
 			}
 		}
@@ -306,7 +302,6 @@ namespace PBIGettingStarted
 				//Create a list of Product
 				List<Message> messages = new List<Message>();
 
-
 				int destination = 0;
 				for (int i = 6; i < 15; i++)
 				{
@@ -315,8 +310,8 @@ namespace PBIGettingStarted
 					messages.Add(
 							new Message() { Hour = string.Format("{0}:00", ("0" + i.ToString()).Substring(("0" + i.ToString()).Length - 2, 2)), Value = destination, Destination = destination }
 						);
-
 				}
+
 				//POST request using the json from a list of Product
 				//NOTE: Posting rows to a model that is not created through the Power BI API is not currently supported. 
 				//      Please create a dataset by posting it through the API following the instructions on http://dev.powerbi.com.
@@ -417,7 +412,6 @@ namespace PBIGettingStarted
 			}
 		}
 
-
 		//Groups: The Update Table Schema operation updates a Table schema in a Dataset in a Group.
 		//PUT https://api.powerbi.com/v1.0/myorg/groups/{group_id}/datasets/{dataset_id}/tables/{table_name}
 		//Update Table Schema operation: https://msdn.microsoft.com/en-US/library/mt203560.aspx
@@ -433,7 +427,6 @@ namespace PBIGettingStarted
 			}
 			catch (Exception ex)
 			{
-
 				Console.WriteLine(ex.Message);
 			}
 		}
@@ -448,7 +441,6 @@ namespace PBIGettingStarted
 			//In a production application, use more specific exception handling.
 			try
 			{
-
 				//Create a GET web request to list all datasets
 				HttpWebRequest request = DatasetRequest(String.Format("{0}/groups", datasetsUri), "GET", AccessToken());
 
@@ -484,7 +476,6 @@ namespace PBIGettingStarted
 				// Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
 				token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri), PromptBehavior.RefreshSession).AccessToken;*/
 			}
-
 
 			return token;
 		}

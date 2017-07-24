@@ -26,3 +26,15 @@ d:\Git\PowerBIPushDataset\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirect
 d:\Git\PowerBIPushDataset\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
 d:\Git\PowerBIPushDataset\bin\Debug\Newtonsoft.Json.xml
 d:\Git\PowerBIPushDataset\obj\Debug\PBIGettingStarted.csprojResolveAssemblyReference.cache
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\PBIGettingStarted.exe.config
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\obj\Debug\PBIGettingStarted.exe
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\obj\Debug\PBIGettingStarted.pdb
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\PBIGettingStarted.exe
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\PBIGettingStarted.pdb
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\Newtonsoft.Json.dll
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\bin\Debug\Newtonsoft.Json.xml
+d:\GitHub\PowerBI\PushDataset\SendRequest2PushDatasetSample\obj\Debug\PBIGettingStarted.csprojResolveAssemblyReference.cache
